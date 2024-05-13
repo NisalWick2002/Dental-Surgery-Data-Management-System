@@ -4,7 +4,7 @@ This extensive project utilizes HTML, JavaScript, Bootstrap, CSS, PHP, MySQL, Fi
 ## Table of Contents 📚
 
 - [Overview](https://github.com/NisalWick2002/Dental-Surgery-Data-Management-System?tab=readme-ov-file#overview-)
-- [Objectives](https://github.com/NisalWick2002/Dental-Surgery-Data-Management-System?tab=readme-ov-file#objectives-%EF%B8%8F)
+- [Objectives](https://github.com/NisalWick2002/Dental-Surgery-Data-Management-System?tab=readme-ov-file#objectives-)
 - [Operations](https://github.com/NisalWick2002/Dental-Surgery-Data-Management-System?tab=readme-ov-file#operations-%EF%B8%8F)
 
 ## Overview 📋
