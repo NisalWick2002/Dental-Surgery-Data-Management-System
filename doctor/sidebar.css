@@ -1,0 +1,67 @@
+nav {
+  background-color: rgb(7, 23, 45);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  width: 90px;
+  overflow: hidden;
+  transition: width 0.2s linear;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+  z-index: 3;
+  padding-left: 0;
+}
+
+.logo {
+  text-align: center;
+  display: flex;
+  transform: all 0.5s ease;
+  margin: 10px 0 0 10px;
+}
+.logo span {
+  font-weight: bold;
+  padding-left: 15px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+nav a {
+  position: relative;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  display: table;
+  width: 300px;
+  padding: 10px;
+  font-size: 18px;
+}
+.sideBarIcon {
+  position: relative;
+  width: 70px;
+  height: 40px;
+  top: 14px;
+  font-size: 20px;
+  text-align: center;
+}
+.nav-item {
+  position: absolute;
+  top: 25px;
+  margin-left: 10px;
+}
+.nav-list-item:hover {
+  background: #eee;
+  color: black;
+}
+nav:hover {
+  width: 280px;
+  transition: all 0.5s ease;
+}
+.logout {
+  position: absolute;
+  bottom: 0;
+}
+
+nav ul {
+  list-style: none;
+  list-style-type: none;
+  margin-left: -39px;
+}

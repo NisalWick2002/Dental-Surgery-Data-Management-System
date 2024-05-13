@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+body {
+  font-weight: 600;
+}
+.top {
+  background-color: #090423;
+  height: 130px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top p {
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  width: 100%;
+  letter-spacing: 3px;
+  text-shadow: 0 0 5px white;
+}
+.bottom {
+  margin-top: 130px;
+  margin-left: 90px;
+  padding-top: 60px;
+  min-height: calc(100vh - 130px);
+  background-color: #1b1e54;
+  position: relative;
+}
+
+.mycontainer {
+  background-color: #d9d9d9;
+  width: auto;
+  height: 450px;
+  margin-top: 55px;
+  margin-left: 95px;
+  margin-right: 95px;
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.item {
+  border-bottom: 2px solid black;
+  display: grid;
+  grid-template-columns: repeat(8,1fr);
+}
+.innerItem{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  border-right: 2px solid black;
+}
+
+.day{
+  cursor: pointer;
+}
+
+.day1,.day3,.day5,.day7{
+  background-color: #BEBEBE;
+}
+
+.small {
+  width: 120px;
+}
+.medium {
+  width: 180px;
+}
+.large {
+  width: 315px;
+}
+.xlarge {
+  width: 630px;
+}
+
+#doctorName {
+  position: absolute;
+  left: 95px;
+  top: 30px;
+  width: 250px;
+}
+#year {
+  position: absolute;
+  left: 375px;
+  top: 30px;
+  width: 250px;
+}
+#weekNo {
+  position: absolute;
+  left: 655px;
+  top: 30px;
+  width: 250px;
+}
+select {
+  background-color: #041423 !important;
+  color: rgb(126, 126, 126) !important;
+  border-color: #121560 !important;
+  box-shadow: 0 0 0 0.2rem rgba(97, 98, 191, 0.25) !important;
+}

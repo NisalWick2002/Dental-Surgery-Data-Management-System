@@ -1,0 +1,28 @@
+.footer{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 0px; 
+    background-color:#07172d ;
+}
+.footer small {
+    justify-self: center;         
+}
+
+.footer small a{
+    color: hsl(0, 0%, 78%);
+}
+
+.footer small a:visited{
+    color: rgb(155, 157, 158);
+}
+
+.footer small a:hover{
+    color: rgb(176, 176, 176);
+}
+
+.footer .p{
+    display: flex;
+    align-items:end;
+    justify-self: center;
+    color: white;
+}

@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+body {
+  font-weight: 600;
+}
+.top {
+  background-color: #090423;
+  height: 130px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top p {
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  width: 100%;
+  letter-spacing: 3px;
+  text-shadow: 0 0 5px white;
+}
+.bottom {
+  margin-top: 130px;
+  margin-left: 90px;
+  padding-top: 60px;
+  min-height: calc(100vh - 130px);
+  background-color: #1b1e54;
+  position: relative;
+}
+
+.bottom table {
+  width: 1260px;
+  position: absolute;
+  margin-top: 35px;
+  margin-left: 90px;
+  min-height: 450px;
+  max-height: 450px;
+}
+
+.bottom tbody {
+  width: 1260px;
+  overflow-y: auto;
+  max-height: 400px;
+  position: absolute;
+}
+
+.small{
+  width: 120px;
+}
+.medium{
+  width: 180px;
+}
+.large{
+  width: 240px;
+}
+
+.bottom input{
+  border-color: #121560 !important;
+  box-shadow: 0 0 0 0.2rem rgba(97, 98, 191, 0.25) !important;
+  background-color: #090423!important;
+  color: white !important;
+}
+
+.bottom .form-control:focus {
+  border-color: #121560 !important;
+  box-shadow: 0 0 0 0.2rem rgba(97, 98, 191, 0.25) !important;
+  background-color: #041423 !important;
+  color: white !important;
+} 
+
+.bottom .form-control::placeholder { 
+  color: rgb(104, 104, 104)!important;
+}
+
+
+#searchDate{
+  position: absolute;
+  left: 95px;
+  top: 30px;
+  width: 250px;
+}
+
+#searchPatient{
+  position: absolute;
+  left: 375px;
+  top: 30px;
+  width: 250px;
+}
+
+#searchDoctor{
+  position: absolute;
+  left: 655px;
+  top: 30px;
+  width: 250px;
+}
+
+.modal-content {
+  width: 500px;
+}
+
+.modal-header {
+  font-weight: 600;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.modal-body {
+  margin-top: -25px;
+}
+.form-group {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#editForm label {
+  font-weight: 600;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  column-gap: 15px;
+  margin-bottom: 25px;
+}
+.footer button {
+  width: 230px;
+  text-align: center;
+}

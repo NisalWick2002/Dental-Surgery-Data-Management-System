@@ -1,0 +1,131 @@
+body{
+    font-size: 18px;
+}
+li{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+p{
+    font-weight: 500;
+    
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2
+}
+
+.cont{
+    z-index: 1;
+    margin-top: 105px;
+}
+h1{
+    font-size: 35px
+}
+h2{
+    font-size: 28px;
+}
+h3{
+    font-size: 24px;
+}
+h4{
+    font-size: 22px;
+}
+h5{
+    font-size: 22px;
+}
+h6{
+    font-size: 18px;
+}
+h2,h1{
+    /* color: rgb(36, 182, 205); */
+    /* color: hsl(215, 85%, 37%); */
+    color: rgb(15, 154, 176);
+}
+
+.bold{
+    font-weight:bold;
+}
+
+.card{
+    height: 100%;
+    border: none;
+    margin: 10px ;
+    padding: 1px 10px;
+    text-align: center;
+    color: #0e3264;
+}
+
+.card.even{
+     background-color: rgb(185, 231, 238);     
+}
+.card.odd{
+    background-color:  #b3d2ff;
+}
+
+.image-top{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+    top: 10%;
+    left: 10%;
+    
+}
+
+.openhours{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+    align-self: start;
+    margin-top: 50px;
+}
+ul{
+    list-style-type: none;
+}
+
+i{
+    margin-right: 10px;
+}
+
+.benefits{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+.btncontact{
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;    
+    background-color:rgb(11, 84, 96);
+    transition: all 0.3s ease-in;
+}
+.btncontact:hover{
+    background-color:hsl(188, 81%, 32%) ;
+}
+
+.card img{
+    
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.list{
+    display: flex;
+    align-items: center;
+}
+
+.list ul li{
+    line-height: 50px;
+}

@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+body {
+  font-weight: 600;
+}
+.top {
+  background-color: #090423;
+  height: 130px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.top p {
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  width: 100%;
+  letter-spacing: 3px;
+  text-shadow: 0 0 5px white;
+}
+.bottom {
+  position: relative;
+  margin-top: 130px;
+  margin-left: 90px;
+  padding-top: 60px;
+  min-height: calc(100vh - 130px);
+  background-color: #1b1e54;
+}
+.top button {
+  position: absolute;
+  top: 38px;
+  right: 180px;
+  z-index: 2;
+}
+
+.mycontainer {
+  width: 1100px;
+  max-height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: transparent;
+  overflow-y: auto;
+}
+
+.medicalRecord:nth-child(odd) {
+  background-color: #b9e7ee;
+}
+
+.medicalRecord:nth-child(even) {
+  background-color: #b3d2ff;
+}
+
+.medicalRecord {
+  position: relative;
+  padding-top: 15px;
+  padding-left: 35px;
+  padding-bottom: 15px;
+  padding-right: 30px;
+  border-radius: 5px;
+  background-color: #b3d2ff;
+  margin-bottom: 20px;
+}
+
+.medicalRecord p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.dateTime {
+  float: right;
+}
+.btn {
+  position: absolute;
+  background-color: #0b5460 !important;
+  right: 35px;
+  width: 250px;
+}
+
+.btn-primary:hover {
+  background-color: #157e8e !important;
+}
+
+.btn-primary:active {
+  background-color: #269fb2 !important;
+}
+
+.viewPrescription {
+  bottom: 60px;
+}
+.downloadPDF {
+  bottom: 15px;
+}
+
+#searchCriteria {
+  position: absolute;
+  left: 165px;
+  top: 30px;
+  width: 250px;
+}
+
+.search {
+  width: 250px;
+  margin-left: 450px;
+  margin-top: -30px;
+  margin-bottom: 25px;
+  background-color: #090423;
+}
+
+.search input {
+  border-color: #121560 !important;
+  box-shadow: 0 0 0 0.2rem rgba(97, 98, 191, 0.25) !important;
+  background-color: #090423;
+  color: white !important;
+}
+
+.form-control:focus {
+  border-color: #121560 !important;
+  box-shadow: 0 0 0 0.2rem rgba(97, 98, 191, 0.25) !important;
+  background-color: #041423 !important;
+  color: white !important;
+}
+
+.form-control::placeholder {
+  color: rgb(104, 104, 104) !important;
+}
+
+select {
+  background-color: #041423 !important;
+  color: rgb(126, 126, 126) !important;
+  border-color: #121560 !important;
+  box-shadow: 0 0 0 0.2rem rgba(97, 98, 191, 0.25) !important;
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  z-index: 9999;
+}
+
+/* Modal content styles */
+.modal-content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.modal-content img {
+  height: 650px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Close button styles */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  color: white;
+  font-size: large;
+  font-weight: 600;
+}

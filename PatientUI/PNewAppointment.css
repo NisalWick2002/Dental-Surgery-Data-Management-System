@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+body {
+  font-weight: 600;
+}
+.top {
+  background-color: #090423;
+  height: 130px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top p {
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  width: 100%;
+  letter-spacing: 3px;
+  text-shadow: 0 0 5px white;
+}
+.bottom {
+  margin-top: 130px;
+  margin-left: 90px;
+  padding-top: 60px;
+  min-height: calc(100vh - 130px);
+  background-color: #1b1e54;
+}
+.top button {
+  position: absolute;
+  top: 38px;
+  right: 180px;
+  z-index: 2;
+}
+
+.mycontainer {
+  background-color: #ededed;
+  width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 500px;
+  max-height: 500px;
+  border-radius: 5px;
+  overflow-y: auto;
+}
+form {
+  margin: 50px;
+}
+.form-group {
+  margin-bottom: 15px;
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+  align-items: center;
+}
+
+.form-group input[type="button"] {
+  margin-top: 15px;
+  grid-column: 1 / -1;
+  font-weight: 600;
+}
+
+.time {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.time label {
+  grid-column: 1/-1;
+}
+
+.time-slot {
+  background-color: #090423;
+  width: 180px;
+  height: 50px;
+  margin-left: 15px;
+  margin-right: 15px;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: background-color 0.5s, border-color 0.3s;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+.disable {
+  background-color: #d9d9d9;
+  color: black;
+}
+.enable {
+  background-color: #5494f3;
+  color: black;
+}
+.selected {
+  background-color: black;
+  color: white;
+}
+
+.time-slot:hover {
+  border-color: silver; /* Change border color on hover */
+}
+
+.form-group label {
+  font-weight: bold;
+}
+.form-group input,.form-group select{
+  font-weight: 600;
+}
+
+

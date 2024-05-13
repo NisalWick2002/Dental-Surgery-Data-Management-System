@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+body {
+  font-weight: 600;
+}
+.top {
+  background-color: #090423;
+  height: 130px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top p {
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  width: 100%;
+  letter-spacing: 3px;
+  text-shadow: 0 0 5px white;
+}
+.bottom {
+  margin-top: 130px;
+  margin-left: 90px;
+  padding-top: 60px;
+  min-height: calc(100vh - 130px);
+  background-color: #1b1e54;
+  position: relative;
+}
+.top button {
+  position: absolute;
+  top: 38px;
+  right: 180px;
+}
+
+.bottom table {
+  
+  width: 1260px;
+  margin-right: auto;
+  margin-left: auto;
+  min-height: 450px;
+  max-height: 450px;
+  border-radius: 15px;
+}
+
+.bottom th,
+.bottom td {
+  width: 180px;
+}
+
+.modal-content {
+  width: 500px;
+}
+
+.modal-header {
+  font-weight: 600;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.modal-body {
+  margin-top: -25px;
+}
+.form-group {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#editForm label {
+  font-weight: 600;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  column-gap: 15px;
+  margin-bottom: 25px;
+}
+.footer button {
+  width: 230px;
+  text-align: center;
+}
+
+#searchCriteria{
+  position: absolute;
+  left: 95px;
+  top:30px;
+  width: 250px;
+}
+
+.search{
+  width: 250px;
+  margin-left: 380px;
+  margin-top: -30px;
+  margin-bottom: 25px;
+  background-color: #090423;
+}
+
+.search input{
+  border-color: #121560 !important;
+  box-shadow: 0 0 0 0.2rem rgba(97, 98, 191, 0.25) !important;
+  background-color: #090423;
+  color: white !important;
+}
+
+.form-control:focus {
+  border-color: #121560 !important;
+  box-shadow: 0 0 0 0.2rem rgba(97, 98, 191, 0.25) !important;
+  background-color: #041423 !important;
+  color: white !important;
+} 
+
+.form-control::placeholder { 
+  color: rgb(104, 104, 104)!important;
+}
+
+select{
+  background-color: #041423!important;
+  color: rgb(126, 126, 126)!important;
+  border-color: #121560 !important;
+  box-shadow: 0 0 0 0.2rem rgba(97, 98, 191, 0.25) !important;
+}

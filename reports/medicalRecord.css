@@ -1,0 +1,159 @@
+.mycontainer {
+  position: relative;
+  width: 205mm;
+  height: 292mm;
+  max-height: 297mm;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  background-color: white;
+  padding: 0;
+  page-break-inside: auto;
+}
+button {
+  position: fixed;
+  right: 75px;
+  top: 15px;
+  background-color: #215f9a;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  border: 2px solid #337abd;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+button:active {
+  background-color: #3da4be;
+  color: black;
+}
+
+button:hover {
+  background-color: #1a7dda;
+}
+body {
+  background-color: #4c4b4b;
+  margin: 10px;
+}
+.header-box {
+  border: 2px solid #215f9a;
+  background-color: #c1e5f5;
+  width: 7.46in;
+  height: 1.44in;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1cm;
+  margin-bottom: 2px;
+}
+.title {
+  font-size: 30pt;
+  font-weight: bold;
+  margin-top: 8px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+.title-branch {
+  font-size: 16pt;
+  font-weight: bold;
+  margin-top: 12px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+
+.title-address {
+  font-size: 12pt;
+  margin-top: 12px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+.branch {
+  font-size: 14pt;
+  font-weight: bold;
+  text-align: justify;
+  margin-top: 12px;
+  margin-top: 8px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+
+.divider {
+  height: 0.07in;
+  width: 7.46in;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  background-color: #163e64;
+}
+
+.body {
+  max-height: 180mm;
+  margin-left: 1in;
+  margin-right: 1in;
+  font-size: 12pt;
+  padding-top: 15px;
+}
+
+ul li {
+  line-height: 1.5;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.margin-top {
+  margin-top: 35px;
+}
+
+.PName,
+.PAge,
+.PDoctor,
+.PVDate {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+img {
+  margin-left: 50px;
+  margin-top: 25px;
+}
+.footer {
+  position: absolute;
+  bottom: 25px;
+  left: 1cm;
+  right: 1cm;
+  font-size: 12pt;
+}
+.footer-divider {
+}
+.footer-date {
+  float: left;
+}
+.pageNumber {
+  float: right;
+}
+
+.PName span,
+    .PAge span,
+    .PDoctor span,
+    .PVDate span {
+        display: inline-block;
+        width: 150px; /* Adjust the width as needed */
+    }
+
+@media print {
+  .non-printable {
+    display: none;
+  }
+  .printable {
+    display: block;
+  }
+}
