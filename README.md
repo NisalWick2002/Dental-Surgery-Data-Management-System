@@ -14,7 +14,7 @@ This extensive project utilizes HTML, JavaScript, Bootstrap, CSS, PHP, MySQL, Fi
 
 This comprehensive project harnesses the power of HTML, JavaScript, Bootstrap, CSS, PHP, MySQL, Figma, Visual Studio Code, and WAMP server technologies. It represents the culmination of our year-end efforts. Designed as a robust solution, this project efficiently manages vast amounts of data with precision, elevating the dental surgery it serves to a pinnacle of excellence within its community.
 
-## Objectives 🎯dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+## Objectives 🎯ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
 
 - Streamline data access and modification processes, eliminating time wastage inherent in paper-based systems.
 - Implement stringent security measures, including data encryption and password protection, safeguarding sensitive information from unauthorized access.
