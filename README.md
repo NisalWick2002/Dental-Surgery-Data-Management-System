@@ -11,7 +11,7 @@ This extensive project utilizes HTML, JavaScript, Bootstrap, CSS, PHP, MySQL, Fi
 - [Operations](https://github.com/NisalWick2002/Dental-Surgery-Data-Management-System?tab=readme-ov-file#operations-)
 
 ## Overview 📋
-vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
 This comprehensive project harnesses the power of HTML, JavaScript, Bootstrap, CSS, PHP, MySQL, Figma, Visual Studio Code, and WAMP server technologies. It represents the culmination of our year-end efforts. Designed as a robust solution, this project efficiently manages vast amounts of data with precision, elevating the dental surgery it serves to a pinnacle of excellence within its community.
 
 ## Objectives 🎯
