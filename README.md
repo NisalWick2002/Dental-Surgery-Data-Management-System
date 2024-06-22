@@ -2,7 +2,7 @@
 
 | Contributors: [NisalWick2002](https://github.com/NisalWick2002) & [Pamod45](https://github.com/Pamod45)
 
-This extensive project utilizes HTML, JavaScript, Bootstrap, CSS, PHP, MySQL, Figma, Visual Studio Code, and WAMP server. Tailored for a dental surgery, it efficiently manages data, from appointments to patient records, streamlining operations for enhanced productivity.
+This extensive project utilizes HTML, JavaScript, Bootstrap, CSS, PHP, MySQL, Figma, Visual Studio Code, and WAMP server. Tailored for dental surgery, it efficiently manages data, from appointments to patient records, streamlining operations for enhanced productivity.
 
 ## Table of Contents 📚
 
