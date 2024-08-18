@@ -1,6 +1,6 @@
 # Dental-Surgery-Data-Management-System
 
-| Contributors: [Nisal Wickramaarachchi](https://github.com/NisalWick2002) & [Pubudu Perea]( https://github.com/Pamod45)
+| Contributors: [Nisal Wickramaarachchi](https://github.com/NisalWick2002) & [Pubudu Perera]( https://github.com/Pamod45)
 
 This extensive project utilizes HTML, JavaScript, Bootstrap, CSS, PHP, MySQL, Figma, Visual Studio Code, and WAMP server. Tailored for dental surgery, it efficiently manages data, from appointments to patient records, streamlining operations for enhanced productivity.
 
